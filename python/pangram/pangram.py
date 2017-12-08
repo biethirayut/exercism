@@ -7,3 +7,4 @@ def is_pangram(sentence):
     #     return False
 
     return True if len(set([x for x in sentence if str(x).isalpha()])) == 26 else False
+a
