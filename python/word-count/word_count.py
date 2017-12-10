@@ -8,7 +8,6 @@ def word_count(phrase):
         b.append(i) if i.isalpha() or i.isdigit() or i == "'" else b.append(' ')
 
     x = ''.join(b).split()
-    print(Counter(x))
     return Counter(x)
 
 
